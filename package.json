@@ -1,0 +1,37 @@
+{
+  "name": "go-extension-pack",
+  "displayName": "Go Extension Pack",
+  "description": "Popular Visual Studio Code extensions for Go Development",
+  "version": "0.12.1",
+  "publisher": "aldijav",
+  "icon": "icon.png",
+  "preview": true,
+  "repository": "https://github.com/aldijavier/golangextension",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Extension Packs",
+    "Snippets"
+  ],
+  "extensionPack": [
+    "golang.Go",
+    "premparihar.gotestexplorer",
+    "zxh404.vscode-proto3",
+    "formulahendry.code-runner",
+    "quicktype.quicktype",
+    "nhoizey.gremlins"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "go",
+        "path": "./snippets/go.json"
+      },
+      {
+        "language": "dockerfile",
+        "path": "./snippets/dockerfile.json"
+      }
+    ]
+  }
+}
